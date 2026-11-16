@@ -1,0 +1,2 @@
+
+In vue component, you can define v-on: in a way that it would track the keyboard inputs. In order to do that you would write `<OurComponent @keyup.{keyAlias}="function()" />` where {keyAlias} is the name of our key. For example, `<OurComponent @keyup.enter="function()" />` would trigger on pressing enter
